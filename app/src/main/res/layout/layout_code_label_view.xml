@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    >
+    <TextView
+        android:id="@+id/code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="12sp"
+        android:background="#e3e3e3"
+        android:layout_alignParentBottom="true"
+        />
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="LaBFMODL"
+        android:textSize="8dp"
+        android:background="#e3e3e3"
+        android:layout_toRightOf="@+id/code"
+        />
+</RelativeLayout>
